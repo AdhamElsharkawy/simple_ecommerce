@@ -140,8 +140,8 @@
                             </div>
                         </div>
 
-                        <div class="col-md-6 col-lg-4 order-1 mt-4 mb-6">
-                            <div class="card h-100">
+                        <div class=" col-md-12 col-lg-12 order-1 mt-4">
+                            <div class="card">
                                 <div class="card-body">
                                     <ApexChart type="line" :options="chartOptions" :series="chartData" height="320" />
                                 </div>
