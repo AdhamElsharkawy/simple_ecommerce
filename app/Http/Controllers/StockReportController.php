@@ -32,7 +32,6 @@ class StockReportController extends Controller
             ->latest()
             ->get(['product_id', 'type', 'quantity', 'amount', 'created_at']);
 
-        dd($transactions->toArray());
 
         return Inertia::render('Dashboard', [
             'totalStock' => $totalStock,
